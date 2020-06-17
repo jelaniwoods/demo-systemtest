@@ -2,5 +2,10 @@
 
 require_relative 'config/environment'
 
-run WebGit::Server
-# map '/git'test
+map '/git' do
+  run WebGit::Server
+end
+
+map '/' do
+  run Rails.application
+end

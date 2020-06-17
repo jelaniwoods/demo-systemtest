@@ -7,7 +7,7 @@ ActiveRecord::Migrator.migrations_paths << File.expand_path('../db/migrate', __d
 require "rails/test_help"
 require "capybara"
 Capybara.server = :webrick
-Capybara::Session.new(:rack_test, Dummy::Application)
+# Capybara::Session.new(:rack_test, Dummy::Application)
 # Capybara.app = WebGit::Server
 # Filter out the backtrace from minitest while preserving the one from other libraries.
 Minitest.backtrace_filter = Minitest::BacktraceFilter.new

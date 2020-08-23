@@ -1,5 +1,6 @@
 # DemoSystemtest
 Short description and motivation.
+figuring out how to run a test a gem that is run with a rails app
 
 ## Usage
 How to use my plugin.
